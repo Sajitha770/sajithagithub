@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="9" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="91" started-at="2019-10-29T17:49:12 IST" finished-at="2019-10-29T17:49:12 IST">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestngGrouping.addToCart()[pri:0, instance:demoOct.TestngGrouping@887af79]" name="addToCart" class="demoOct.TestngGrouping"/>
+        <method signature="TestngGrouping.launch()[pri:0, instance:demoOct.TestngGrouping@887af79]" name="launch" class="demoOct.TestngGrouping"/>
+        <method signature="TestngGrouping.login()[pri:0, instance:demoOct.TestngGrouping@887af79]" name="login" class="demoOct.TestngGrouping"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TestngGrouping.login()[pri:0, instance:demoOct.TestngGrouping@887af79]" name="login" class="demoOct.TestngGrouping"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TestNGBasics.login()[pri:0, instance:demoOct.TestNGBasics@7fac631b]" name="login" class="demoOct.TestNGBasics"/>
+        <method signature="TestngGrouping.addToCart()[pri:0, instance:demoOct.TestngGrouping@887af79]" name="addToCart" class="demoOct.TestngGrouping"/>
+        <method signature="TestngGrouping.registration()[pri:0, instance:demoOct.TestngGrouping@887af79]" name="registration" class="demoOct.TestngGrouping"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="91" started-at="2019-10-29T17:49:12 IST" finished-at="2019-10-29T17:49:12 IST">
+      <class name="demoOct.TestngGrouping">
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:demoOct.TestngGrouping@887af79]" name="addToCart" duration-ms="14" started-at="2019-10-29T17:49:12 IST" finished-at="2019-10-29T17:49:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:demoOct.TestngGrouping@887af79]" name="launch" duration-ms="2" started-at="2019-10-29T17:49:12 IST" finished-at="2019-10-29T17:49:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login()[pri:0, instance:demoOct.TestngGrouping@887af79]" name="login" duration-ms="3" started-at="2019-10-29T17:49:12 IST" finished-at="2019-10-29T17:49:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="registration()[pri:0, instance:demoOct.TestngGrouping@887af79]" name="registration" duration-ms="3" started-at="2019-10-29T17:49:12 IST" finished-at="2019-10-29T17:49:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+      </class> <!-- demoOct.TestngGrouping -->
+      <class name="demoOct.TestNGBasics">
+        <test-method status="PASS" signature="login()[pri:0, instance:demoOct.TestNGBasics@7fac631b]" name="login" duration-ms="2" started-at="2019-10-29T17:49:12 IST" finished-at="2019-10-29T17:49:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- demoOct.TestNGBasics -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

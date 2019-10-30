@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test thread-count="5" name="Test">
+    
+    
+    <groups>
+    <run>
+    <include name="Sanity"></include>  
+   <!--  <include name="Smoke"></include>  -->
+    </run>
+    </groups>
+       
+    <classes>
+     <class name="demoOct.TestngGrouping"/>
+    <!--  <class name="demoOct.TestNGBasics"/>  -->
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
